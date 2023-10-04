@@ -133,3 +133,9 @@ fieldset{
     flex-direction: column;
     
 }
+.send{
+    color: white;
+    background-color: #000;
+    margin-top: 20px;
+   padding: 10px;
+}
