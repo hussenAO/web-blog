@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: #ffffff;
     min-height: 200vh;
 }
-header{
-    position:sticky;
+
+header {
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -20,11 +22,13 @@ header{
     z-index: 10000;
     background: black;
 }
-header.sticky{
+
+header.sticky {
     padding: 10px 100px;
-    background:rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
 }
-header .logo{
+
+header .logo {
     position: relative;
     font-weight: 700;
     text-decoration: none;
@@ -33,21 +37,25 @@ header .logo{
     letter-spacing: 2px;
     transition: 0.6s;
 }
-.imglogo{
+
+.imglogo {
     height: auto;
     width: 60px;
 }
-header ul{
+
+header ul {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header ul li{
+
+header ul li {
     position: relative;
     list-style: none;
 }
-header ul li a{
+
+header ul li a {
     position: relative;
     margin: 0 15px;
     text-decoration: none;
@@ -56,14 +64,16 @@ header ul li a{
     font-weight: 500px;
     transition: 0.6s;
 }
-.footerbody{
+
+.footerbody {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
 }
-footer{
-    position:relative;
+
+footer {
+    position: relative;
     bottom: 0;
     width: 100%;
     height: auto;
@@ -75,22 +85,25 @@ footer{
     background: #1b1919;
     margin-top: 100px;
 }
-footer .container{
+
+footer .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-footer .container .secoverons{
-    width: 40%;    
+footer .container .secoverons {
+    width: 40%;
 }
-footer .container .secoverons h2{
+
+footer .container .secoverons h2 {
     position: relative;
     font-weight: 500;
     margin-bottom: 15px;
 }
-footer .container .secoverons h2:before{
+
+footer .container .secoverons h2:before {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -99,15 +112,18 @@ footer .container .secoverons h2:before{
     height: 2px;
     background: #f00;
 }
-footer .container  p{
+
+footer .container p {
     color: #999;
 }
-footer .container .locatie h2{
+
+footer .container .locatie h2 {
     position: relative;
     font-weight: 500;
     margin-bottom: 15px;
 }
-footer .container .locatie h2:before{
+
+footer .container .locatie h2:before {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -116,132 +132,220 @@ footer .container .locatie h2:before{
     height: 2px;
     background: #f00;
 }
-footer .container .locatie{
-    width: 40%;    
+
+footer .container .locatie {
+    width: 40%;
 }
-.Dieten h2{   
+
+.Dieten h2 {
     margin-top: 30px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
-.Dieten p{
+
+.Dieten p {
     position: relative;
     text-align: center;
     display: flex;
     justify-content: center;
     width: 50%;
     margin-left: 25%;
-}    
-.keto .crketo h2{
+}
+
+.keto .crketo h2 {
     margin-top: 30px;
     margin-right: 25%;
     display: flex;
     justify-content: flex-end;
 }
-.keto .crketo p{
+
+.keto .crketo p {
     width: 40%;
     margin-left: 50%;
     margin-top: 10px;
 }
-.imgketo{
-   position: relative;
+
+.imgketo {
+    position: relative;
     width: 25%;
     height: auto;
     display: flex;
     justify-self: flex-start;
     margin-left: 20%;
-    float:left;
+    float: left;
     margin-top: 20px;
 }
-.voordelenketo{
+
+.voordelenketo {
     margin-top: 15%;
     margin-right: 5%;
     width: 35%;
     float: right;
-  position: relative;
+    position: relative;
 }
-.voordelenketo h3{
+
+.voordelenketo h3 {
     margin-left: 15%;
     margin-bottom: 10px;
 }
-.nadelenketo{
+
+.nadelenketo {
     width: 40%;
     margin-left: 5%;
 }
-.nadelenketo h3{
+
+.nadelenketo h3 {
     margin-top: 38%;
     margin-bottom: 15px;
     text-align: center;
 }
-.vbketo .kleinetekst{
+
+.vbketo .kleinetekst {
     column-count: 2;
     column-gap: 20px;
     margin-left: 10%;
 }
-.vbketo h3{
+
+.vbketo h3 {
     display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 20px;
 }
-.inleidingif{
+
+.inleidingif {
     width: 50%;
     margin-left: 50%;
     margin-top: 70px;
 }
-.inleidingif h2{
+
+.inleidingif h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
-.imgif{
+
+.imgif {
     position: relative;
     width: 25%;
     height: 250px;
     display: flex;
     justify-self: flex-start;
     margin-left: 15%;
-    float:left;
+    float: left;
     margin-top: 20px;
 }
-.voordelenif{
-   margin-top: 5%;
-    margin-right: 5%;
-    width: 40%;
-    float: right;
-  position: relative;
-}
-.voordelenif h3{
-    margin-bottom: 15px;
-}
-.nadelenif{
-    width: 40%;
-    margin-left: 7%;
-    margin-top: 6%;
-}
-.nadelenif h3{
-    margin-bottom: 15px;
-}
-.inleidingzone{
-    width: 40%;
-    margin-left: 30%;
-    margin-top: 110px;
-}
-.inleidingzone h2{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-.voordelenzone{
+
+.voordelenif {
     margin-top: 5%;
     margin-right: 5%;
     width: 40%;
     float: right;
-  position: relative;
+    position: relative;
 }
-.nadelenzone{
+
+.voordelenif h3 {
+    margin-bottom: 15px;
+}
+
+.nadelenif {
     width: 40%;
     margin-left: 7%;
     margin-top: 6%;
+}
+
+.nadelenif h3 {
+    margin-bottom: 15px;
+}
+
+.inleidingzone {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 110px;
+}
+
+.inleidingzone h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.voordelenzone {
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 40%;
+    float: right;
+    position: relative;
+}
+
+.nadelenzone {
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.work-out h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.work-out p {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.cardio h2 {
+    margin-top: 100px;
+    margin-right: 19%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cardio p {
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+
+.kracht p {
+    width: 40%;
+    margin-left: 5%;
+}
+
+.kracht h3 {
+    margin-left: -50%;
+    margin-top: 10%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.flexibiliteit p {
+    width: 40%;
+    margin-right: 5%;
+}
+
+.flexibiliteit h3 {
+    margin-right: -40%;
+    margin-top: 10%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.hiit p {
+    width: 40%;
+    margin-left: 5%;
+}
+
+.hiit h3 {
+    margin-left: -55%;
+    margin-top: 10%;
+    margin-bottom: 15px;
+    text-align: center;
 }
