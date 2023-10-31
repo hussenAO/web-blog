@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: #ffffff;
 }
-header{
-    position:sticky;
+
+header {
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -19,11 +21,13 @@ header{
     z-index: 10000;
     background: black;
 }
-header.sticky{
+
+header.sticky {
     padding: 10px 100px;
-    background:rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
 }
-header .logo{
+
+header .logo {
     position: relative;
     font-weight: 700;
     text-decoration: none;
@@ -32,21 +36,26 @@ header .logo{
     letter-spacing: 2px;
     transition: 0.6s;
 }
-.imglogo{
+
+/* dit is het logo van de website (dubbel)*/
+.imglogo {
     height: auto;
     width: 60px;
 }
-header ul{
+
+header ul {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header ul li{
+
+header ul li {
     position: relative;
     list-style: none;
 }
-header ul li a{
+
+header ul li a {
     position: relative;
     margin: 0 15px;
     text-decoration: none;
@@ -55,6 +64,7 @@ header ul li a{
     font-weight: 500px;
     transition: 0.6s;
 }
+
 .footerbody {
     display: flex;
     justify-content: flex-end;
@@ -275,6 +285,8 @@ footer .container .locatie {
     margin-top: 6%;
 }
 
+
+/* dit zorg ervooor dat de titel van workout in de center van het beeld staat.*/
 .work-out h2 {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -282,6 +294,7 @@ footer .container .locatie {
     justify-content: center;
 }
 
+/* dit zorg ervooor dat de text van workout in de center van het beeld staat.*/
 .work-out p {
     position: relative;
     text-align: center;
@@ -291,6 +304,8 @@ footer .container .locatie {
     margin-left: 25%;
 }
 
+/* dit zorgt ervoor dat de titel van cardio trening aan de linker kant staat de text van cardio trening staat (onderelkaar)*/
+
 .cardio h2 {
     margin-top: 100px;
     margin-right: 19%;
@@ -298,17 +313,22 @@ footer .container .locatie {
     justify-content: flex-end;
 }
 
+/* dit zorgt ervoor dat de titel van cardio trening aan de linker kant staat de text van cardio trening staat (onderelkaar)*/
+
 .cardio p {
     width: 40%;
     margin-left: 50%;
     margin-top: 10px;
 }
 
+/* dit zorgt ervoor dat de titel van cardio trening onder de text van cardio trening staat (onderelkaar)*/
+
 .kracht p {
     width: 40%;
     margin-left: 5%;
 }
 
+/* dit zorgt er voor dat de text van cardio trening onder de foto van .cardioimg staat*/
 .kracht h3 {
     margin-top: 15%;
     margin-bottom: 15px;
@@ -316,11 +336,14 @@ footer .container .locatie {
     margin-left: -20%;
 }
 
+/* dit zorgt ervoor dat de titel van flexibiliteit onder de text van krachttrening staat (onderelkaar)*/
+
 .flexibiliteit p {
     width: 40%;
     margin-right: 5%;
 }
 
+/* dit zorgt er voor dat de text van flexibiliteit trening onder de foto van .krachtimg staat*/
 .flexibiliteit h3 {
     margin-right: -10%;
     margin-top: 10%;
@@ -328,29 +351,37 @@ footer .container .locatie {
     text-align: center;
 }
 
+/* dit zorgt ervoor dat de titel van HIITonder de text van HIIT staat (onderelkaar)*/
 .hiit p {
     width: 40%;
     margin-left: 5%;
 }
 
+/* dit zorgt er voor dat de text van HIIT trening onder de foto van .yogaimg staat*/
 .hiit h3 {
     margin-left: -55%;
     margin-top: 15%;
     margin-bottom: 15px;
     text-align: center;
 }
-.cardioimg{
+
+/* dit een een foto van iemand die cardio trening uitvoert*/
+.cardioimg {
     float: left;
     margin-left: 100px;
 
 }
-.krachtimg{
+
+/* dit is een foto van iemand die kracht trening uitvoert*/
+.krachtimg {
     float: right;
-   margin-right: 10%;
-   margin-top: -5%;
-   width: 30%;
+    margin-right: 10%;
+    margin-top: -5%;
+    width: 30%;
 }
-.yogaimg{
+
+/* dit is foto van iemand die yoga doet*/
+.yogaimg {
     float: left;
     margin-left: 15%;
 }

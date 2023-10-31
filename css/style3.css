@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: #ffffff;
 }
-header{
-    position:sticky;
+
+header {
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -19,11 +21,13 @@ header{
     z-index: 10000;
     background: black;
 }
-header.sticky{
+
+header.sticky {
     padding: 10px 100px;
-    background:rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
 }
-header .logo{
+
+header .logo {
     position: relative;
     font-weight: 700;
     text-decoration: none;
@@ -32,21 +36,25 @@ header .logo{
     letter-spacing: 2px;
     transition: 0.6s;
 }
-.imglogo{
+
+.imglogo {
     height: auto;
     width: 60px;
 }
-header ul{
+
+header ul {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header ul li{
+
+header ul li {
     position: relative;
     list-style: none;
 }
-header ul li a{
+
+header ul li a {
     position: relative;
     margin: 0 15px;
     text-decoration: none;
@@ -55,14 +63,16 @@ header ul li a{
     font-weight: 500px;
     transition: 0.6s;
 }
-.footerbody{
+
+.footerbody {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
 }
-footer{
-    position:relative;
+
+footer {
+    position: relative;
     bottom: 0;
     width: 100%;
     height: auto;
@@ -74,22 +84,25 @@ footer{
     background: #1b1919;
     margin-top: 100px;
 }
-footer .container{
+
+footer .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-footer .container .secoverons{
-    width: 40%;    
+footer .container .secoverons {
+    width: 40%;
 }
-footer .container .secoverons h2{
+
+footer .container .secoverons h2 {
     position: relative;
     font-weight: 500;
     margin-bottom: 15px;
 }
-footer .container .secoverons h2:before{
+
+footer .container .secoverons h2:before {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -98,15 +111,18 @@ footer .container .secoverons h2:before{
     height: 2px;
     background: #f00;
 }
-footer .container  p{
+
+footer .container p {
     color: #999;
 }
-footer .container .locatie h2{
+
+footer .container .locatie h2 {
     position: relative;
     font-weight: 500;
     margin-bottom: 15px;
 }
-footer .container .locatie h2:before{
+
+footer .container .locatie h2:before {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -115,27 +131,36 @@ footer .container .locatie h2:before{
     height: 2px;
     background: #f00;
 }
-footer .container .locatie{
-    width: 40%;    
+
+/* dit is hoe wijd*/
+footer .container .locatie {
+    width: 40%;
 }
 
-fieldset{
-        width: 30%px;
-        height: 70%px;
-        border: 2px solid #000; /* Set the border properties */
-        padding: 20px; /* Set padding inside the fieldset */
-        margin: 20px;
-     }
-.feedbackinh{
+/* Dit is de de padding omheen*/
+fieldset {
+    width: 30%px;
+    height: 70%px;
+    border: 2px solid color(srgb rgb(14, 14, 14) green blue);
+    /* Set the border properties */
+    padding: 20px;
+    /* Set padding inside the fieldset */
+    margin: 20px;
+}
+
+/* deze code zorgt ervoor dat alle functies in het midden van de pagina zijn in feedback*/
+.feedbackinh {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
 }
-.send{
+
+/*Dit is het verzend knopje van de feedback paige*/
+.send {
     color: white;
     background-color: #000;
     margin-top: 20px;
-   padding: 10px;
+    padding: 10px;
 }
