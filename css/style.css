@@ -7,7 +7,7 @@
 body {
     background: #ffffff;
 }
-
+/*het zwarte achter grond voor het header*/
 header {
     position: fixed;
     top: 0;
@@ -20,39 +20,30 @@ header {
     padding: 20px 60px;
     z-index: 10000;
 }
-
+/*als je scrolt is het navbar dit*/
 header.sticky {
     padding: 10px 100px;
     background: rgb(0, 0, 0);
 }
 
-header .logo {
-    position: relative;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: 0.6s;
-}
-
+/*het groote van het logo*/
 .imglogo {
     height: auto;
     width: 60px;
 }
-
+/*hierdoor zijn ze niet onder elkaar in het navbar zijn*/
 header ul {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+/*zodat er geen puntjes naast staan*/
 header ul li {
     position: relative;
     list-style: none;
 }
-
+/*dit is het opmaak van het links zelf*/
 header ul li a {
     position: relative;
     margin: 0 15px;
@@ -62,22 +53,16 @@ header ul li a {
     font-weight: 500px;
     transition: 0.6s;
 }
-
+/* het achtergrond van de landing page en ook het groote*/
 .banner {
     position: absolute;
     width: 100%;
     height: 100vh;
-    background: url(img/achtergrond.jpg);
+    background: url(../img/achtergrond.jpg);
     background-size: cover;
 }
 
-.footerbody {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
-}
-
+/*de groote en kleur van de footer*/
 footer {
     position: relative;
     bottom: 0;
@@ -90,24 +75,24 @@ footer {
     color: #ffffff;
     background: #1b1919;
 }
-
+/*het container waar alle tekst in staat in het footer*/
 footer .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+/*het breedte voor het alinea over ons*/
 footer .container .secoverons {
     width: 40%;
 }
-
+/* hier door is het tekst over ons links in de footer*/
 footer .container .secoverons h2 {
     position: relative;
     font-weight: 500;
     margin-bottom: 15px;
 }
-
+/*dit is het roode onderstreep bij het hf over ons*/
 footer .container .secoverons h2:before {
     content: '';
     position: absolute;
@@ -117,17 +102,17 @@ footer .container .secoverons h2:before {
     height: 2px;
     background: #f00;
 }
-
+/*de kleur voor alle paragrafen in de footer*/
 footer .container p {
     color: #999;
 }
-
+/*hierdoor is het tekst van locatie rechts*/
 footer .container .locatie h2 {
     position: relative;
     font-weight: 500;
     margin-bottom: 15px;
 }
-
+/*dit is het roode onderstreep bij het hf locatie*/
 footer .container .locatie h2:before {
     content: '';
     position: absolute;
@@ -137,11 +122,11 @@ footer .container .locatie h2:before {
     height: 2px;
     background: #f00;
 }
-
+/* voor de hf locatie in het footer geeft het een breede van 40%*/
 footer .container .locatie {
     width: 40%;
 }
-
+/* door dit gaat het inleiding in het midden van het scherm staan en wat meer naar beneden zorgt het ervoor dat het tekst rood en in het center is */
 .container-inleiding {
     display: block;
     height: 100vh;
